@@ -1,0 +1,28 @@
+{
+  "name": "Optimize keywords",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "---------------------Optimize product keywords---------------Ai一键优化你的产品关键词，提升曝光率",
+  "author": "Jetson",
+  "homepage_url": "https://www.dny123.com",
+  "icons": {
+    "16": "image/icon.png",
+    "48": "image/icon.png",
+    "128": "image/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "image/icon.png",
+    "default_popup": "html/popup.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts":["js/mourseRight.js"],
+    "persistent":false
+  },
+  "options_page": "html/options.html"
+}
